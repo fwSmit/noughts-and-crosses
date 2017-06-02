@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1496260339 source:f:\fwsmi\unit testing\unittest-cpp-master\leapyear\noughts and crosses\main.cpp
+	<iostream>
+	"Game.h"
+
+1496176509 source:f:\fwsmi\unit testing\unittest-cpp-master\leapyear\noughts and crosses\board.cpp
+	"Board.h"
+	<iostream>
+	<string>
+
+1496260199 f:\fwsmi\unit testing\unittest-cpp-master\leapyear\noughts and crosses\board.h
+	"array"
+	<assert.h>
+	<iostream>
+
+1496260429 source:f:\fwsmi\unit testing\unittest-cpp-master\leapyear\noughts and crosses\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1496260478 f:\fwsmi\unit testing\unittest-cpp-master\leapyear\noughts and crosses\game.h
+	"Board.h"
+
