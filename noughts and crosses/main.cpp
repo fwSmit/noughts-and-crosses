@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     #if PLAY_GAME
-    cout << "type NUMBER, NUBMER ENTER" << endl;
-    cout << "for example 1, 3 ENTER" << endl;
+    cout << "type X_POSITION, Y_POSITION and press enter" << endl;
+    cout << "for example \"1, 3\" ENTER" << endl;
     Game game;
     cout << game.getBoard() << endl;
     while(!game.hasEnded()){
@@ -24,6 +24,7 @@ int main()
     }else{
         cout << "player " << game.getCurrentPlayerChar() << " has won" << endl;
     }
+    cin.get();
     #else
     cout << "DEBUG mode" << endl;
     Game game;
